@@ -96,16 +96,16 @@
 
 //TEMPLATE STRINGS: this allows us to inject variables into the string without having to exit out and using the plus (+) sign to cancatenate them.
 
-const title = 'Best footballers of all time';
-const author = 'Islam';
-const likes = 20;
+// const title = 'Best footballers of all time';
+// const author = 'Islam';
+// const likes = 20;
 
 //CONCATENATION WAY:
 //let result = 'The blog called ' + title + ' by ' + author + ' has ' + 10 + ' likes ';
 //console.log(result);
 
 
-//TEMPLATE STRING WAY or template literal:
+//TEMPLATE STRING WAY or template literal: ${}
 //let result = `The blog called ${title} by ${author} has ${likes}`;
 //console.log(result);
 
@@ -118,3 +118,64 @@ const likes = 20;
 //`;
 
 //console.log(html);
+
+//ARRAYS: this is used to store a collection of data like numbers or strings. ['', '', ''];
+// let city = ['kdb', 'haaland', 'dias'];
+
+// city[1] = 'alvarez';
+// console.log(city[1]);
+
+// let ages = [20, 30, 34, 67, 27];
+// console.log(ages[3]);
+
+// console.log(city.length);
+
+//ARRAY METHODS:
+// let result = city.join ('.');
+// let result = city.indexOf('dias');
+// let result = city.concat(['mahrez', 'rodri']);
+// let result = city.push ('ake');
+// result =city.pop();
+
+// console.log(result);
+
+//NULL & UNDEFINED
+
+// let age;
+// let age = null;
+
+// console.log(age, age + 3, `the age is ${age}`);
+
+//BOOLEANs &COMPARISONS. Boolean: this is use to eveluate conditions in our code. To check whether certain things are true or false.
+
+console.log(true , false, 'true', 'false');
+
+//Methods can return booleans
+let email = 'islammuhd@gmail.com';
+let names = ['islam', 'umar', 'abdullahi'];
+
+// let result = email.includes(',');
+// let result = names.includes('usman');
+// console.log(result);
+
+//Comparison Operators
+// (==): meaning is age equal to 25.
+// (!=): meaning is age not equal to 25. 
+
+// let age = 25;
+
+// console.log(age == 25)
+// console.log(age == 30)
+// console.log(age != 30)
+// console.log(age != 25)
+// console.log(age > 20)
+// console.log(age < 20)
+// console.log(age <= 25)
+// console.log(age >= 25)
+
+// let name = 'islam';
+
+// console.log(name == 'islam'); 
+// console.log(name == 'Islam'); 
+// console.log(name > 'abu'); 
+// console.log(name > 'Islam'); 
